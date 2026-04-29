@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=DataGenerator
+comment1.params=n
+comment1.target=java.util.List\ generateRandomNodes(int)
+numComments=2

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Kruskal
+comment1.params=edges\ n
+comment1.target=java.util.List\ computeMST(java.util.List,\ int)
+numComments=2

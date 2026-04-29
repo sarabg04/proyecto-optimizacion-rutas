@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GraphUtils
+comment1.params=nodes
+comment1.target=double[][]\ computeDistanceMatrix(java.util.List)
+comment2.params=dist
+comment2.target=java.util.List\ generateEdges(double[][])
+numComments=3
