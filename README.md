@@ -55,10 +55,14 @@ El proyecto incluye una visualización en Java Swing:
 -  Animación del recorrido
 
 ## Estructura del proyecto
-app/ → Main del programa
+app/ → Main del programa 
+
 graph/ → Algoritmos de grafos (Kruskal, Node, etc.)
+  
 tsp/ → Algoritmos del TSP
+
 utils/ → Funciones auxiliares
+
 visual/ → Visualización
 
 ## Cómo ejecutar
