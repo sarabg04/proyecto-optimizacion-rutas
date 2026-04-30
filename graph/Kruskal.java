@@ -1,3 +1,5 @@
+package graph;
+
 
 import java.util.*;
 
@@ -6,6 +8,13 @@ public class Kruskal {
     public static class Edge implements Comparable<Edge> {
         int u, v;
         double weight;
+          public int getU() {
+        return u;
+    }
+
+    public int getV() {
+        return v;
+    }
 
         public Edge(int u, int v, double weight) {
             this.u = u;

@@ -1,4 +1,6 @@
+package tsp;
 
+import graph.Kruskal;
 import java.util.*;
 
 public class TSPApproximation {
@@ -12,9 +14,9 @@ public class TSPApproximation {
         }
 
         for (Kruskal.Edge e : mst) {
-            adj.get(e.u).add(e.v);
-            adj.get(e.v).add(e.u);
-        }
+    adj.get(e.getU()).add(e.getV());
+    adj.get(e.getV()).add(e.getU());
+    }
 
         List<Integer> route = new ArrayList<>();
         boolean[] visited = new boolean[n];

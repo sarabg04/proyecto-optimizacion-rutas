@@ -1,3 +1,5 @@
+package Visuals;
+import graph.Node;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
